@@ -1,0 +1,97 @@
+[23:27:40] alt:V Server 16.1.1 (release)
+[23:27:40] Starting alt:V Server on [::]:7788
+[23:27:40] Loading resource freeroam
+[23:27:40] Loading resource chat
+[23:27:41] Loaded resource chat
+[23:27:41][Warning] Trying to import resource 'chat' without 'alt:' prefix, this is deprecated behaviour.
+[23:27:41][Warning] Import 'alt:chat' instead to silence this warning.
+[23:27:41] Loaded resource freeroam
+[23:27:41] Loading resource myResource
+[23:27:41] Loaded resource myResource
+[23:27:41] Loading resource foldermenu
+[23:27:41] Loaded resource foldermenu
+[23:27:41] Loading resource weaponsmajes
+[23:27:41][Warning] Trying to import resource 'chat' without 'alt:' prefix, this is deprecated behaviour.
+[23:27:41][Warning] Import 'alt:chat' instead to silence this warning.
+[23:27:41] Loaded resource weaponsmajes
+[23:27:41] Loading resource noclip
+[23:27:41] Loaded resource noclip
+[23:27:41] Loading resource navik
+[23:27:41] Loaded resource navik
+[23:27:41] Loading resource tiimejs
+[23:27:41] Loaded resource tiimejs
+[23:27:41] Loading resource altv-os-nametags
+[23:27:41] Loaded resource altv-os-nametags
+[23:27:41] Loading resource yrontest
+[23:27:41][Warning] Trying to import resource 'chat' without 'alt:' prefix, this is deprecated behaviour.
+[23:27:41][Warning] Import 'alt:chat' instead to silence this warning.
+[23:27:41] Loaded resource yrontest
+[23:27:41] Required server permissions:
+[23:27:41] Optional server permissions:
+[23:27:41] Starting HTTP server on [::]:7788
+[23:27:41] Main thread started (ThreadId: 30736)
+[23:27:41] EntityStreamer thread started (ThreadId: 40628)
+[23:27:41] SyncSend thread started (ThreadId: 15568)
+[23:27:41] SyncSend thread started (ThreadId: 37732)
+[23:27:41] SyncSend thread started (ThreadId: 13128)
+[23:27:41] SyncSend thread started (ThreadId: 34948)
+[23:27:41] SyncSend thread started (ThreadId: 39756)
+[23:27:41] SyncSend thread started (ThreadId: 36440)
+[23:27:41] SyncSend thread started (ThreadId: 37772)
+[23:27:41] SyncSend thread started (ThreadId: 33300)
+[23:27:41] SyncReceive thread started (ThreadId: 10136)
+[23:27:41] SyncReceive thread started (ThreadId: 37516)
+[23:27:41] SyncReceive thread started (ThreadId: 39652)
+[23:27:41] SyncReceive thread started (ThreadId: 12832)
+[23:27:41] NetworkWorker #1 thread started (ThreadId: 41340)
+[23:27:41] Console thread started (ThreadId: 36124)
+[23:27:41][Warning] Server started in debug mode
+[23:29:12] Sending accept 1 morfux
+[23:29:12] Игрок morfux подключился к серверу
+[23:29:12] morfux has connected.
+[23:29:12] morfux подключился к серверу.
+[23:29:25] [chat:cmd] morfux: /majestic
+[23:29:34] Sending accept 2 ICON
+[23:29:34] Игрок ICON подключился к серверу
+[23:29:34] ICON has connected.
+[23:29:34] ICON подключился к серверу.
+[23:29:43] [chat:cmd] ICON: /majetic
+[23:29:45] [chat:msg] morfux: фефе
+[23:29:46] [chat:msg] morfux: понял
+[23:29:47] [chat:msg] morfux: аг
+[23:29:48] [chat:msg] morfux: баг
+[23:29:50] [chat:cmd] ICON: /majestic
+[23:29:50] [chat:msg] morfux: пизда
+[23:29:55] [chat:msg] ICON: бб
+[23:29:58] ICON gave morfux the rest!
+[23:31:13] ICON has leaved the server because of timed out
+[23:31:13] Игрок ICON отключился от сервера. Причина: timed out
+[23:31:13] ICON отключился от сервера.
+[23:34:51] morfux has leaved the server because of timed out
+[23:34:51] Игрок morfux отключился от сервера. Причина: timed out
+[23:34:51] morfux отключился от сервера.
+[23:34:57] alt::CVoiceManager::Stop begin
+[23:34:57] alt::CVoiceManager::Stop end
+[23:34:57] Stopping resource navik
+[23:34:57] Stopped resource navik
+[23:34:57] Stopping resource weaponsmajes
+[23:34:57] Stopped resource weaponsmajes
+[23:34:57] Stopping resource freeroam
+[23:34:57] Stopped resource freeroam
+[23:34:57] Stopping resource chat
+[23:34:57] Stopped resource chat
+[23:34:57] Stopping resource myResource
+[23:34:57] Stopped resource myResource
+[23:34:57] Stopping resource foldermenu
+[23:34:57] Stopped resource foldermenu
+[23:34:57] Stopping resource tiimejs
+[23:34:57] Stopped resource tiimejs
+[23:34:57] Stopping resource altv-os-nametags
+[23:34:57] Stopped resource altv-os-nametags
+[23:34:57] Stopping resource noclip
+[23:34:57] Stopped resource noclip
+[23:34:57] Stopping resource yrontest
+[23:34:57] Stopped resource yrontest
+[23:34:57] alt::CVoiceManager::Stop begin
+[23:34:57] alt::CVoiceManager::Stop end
+[23:34:57] Server shutdown

@@ -1,0 +1,17 @@
+{
+  "name": "weaponsmajes",
+  "version": "1.0.0",
+  "description": "A simple alt:V resource for GTA V",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "altv-server"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "alt-server": "^1.0.0",
+    "alt-client": "^1.0.0",
+    "natives": "^1.0.0"
+  }
+}

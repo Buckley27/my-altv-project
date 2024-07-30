@@ -1,0 +1,16 @@
+{
+  "name": "altv-server",
+  "version": "1.0.0",
+  "description": "alt:V Sample Server",
+  "main": "server.js",
+  "type": "module", 
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "alt-server": "^1.0.0",
+    "alt-client": "^1.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

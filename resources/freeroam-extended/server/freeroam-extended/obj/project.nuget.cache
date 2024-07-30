@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "RGi2Isdx+m8=",
+  "success": true,
+  "projectFilePath": "D:\\my-altv-project\\resources\\freeroam-extended\\server\\freeroam-extended\\Freeroam-Extended.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Simon\\.nuget\\packages\\altv.net\\15.0.161-dev\\altv.net.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\altv.net.async\\15.0.161-dev\\altv.net.async.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\altv.net.capi\\15.0.161-dev\\altv.net.capi.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\altv.net.resources.chat.api\\15.0.161-dev\\altv.net.resources.chat.api.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\altv.net.shared\\15.0.161-dev\\altv.net.shared.15.0.161-dev.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\Simon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

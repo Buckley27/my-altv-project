@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список онлайн</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .player-list {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: none; /* Initially hidden */
+        }
+        .player-list table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .player-list th, .player-list td {
+            padding: 10px;
+            text-align: left;
+        }
+        .player-list th {
+            background-color: #333;
+        }
+        .player-list tr:nth-child(even) {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="player-list" id="playerList">
+        <h2>Player List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nickname</th>
+                </tr>
+            </thead>
+            <tbody id="playerListBody">
+                <!-- Player rows will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+    <script>
+        alt.on('receivePlayerList', (playerList) => {
+            const playerListBody = document.getElementById('playerListBody');
+            playerListBody.innerHTML = ''; // Clear existing rows
+            playerList.forEach(player => {
+                const row = document.createElement('tr');
+                const idCell = document.createElement('td');
+                const nameCell = document.createElement('td');
+
+                idCell.textContent = player.id;
+                nameCell.textContent = player.name;
+
+                row.appendChild(idCell);
+                row.appendChild(nameCell);
+                playerListBody.appendChild(row);
+            });
+        });
+
+        alt.on('show', () => {
+            document.getElementById('playerList').style.display = 'block';
+        });
+
+        alt.on('hide', () => {
+            document.getElementById('playerList').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "tiimejs",
+  "version": "1.0.0",
+  "description": "A resource for controlling time in GTA 5 multiplayer using Alt:V.",
+  "main": "index.js",
+  "scripts": {
+    "start": "alt-server"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "alt-server": "^3.0.0"
+  }
+}
